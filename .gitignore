@@ -1,0 +1,25 @@
+
+# ==========================================
+# Ignore all files and folders in project root
+# ==========================================
+/*
+
+# ==========================================
+# Include the five Python source files
+# ==========================================
+!/datagenerators.py
+!/losses.py
+!/networks.py
+!/test_noHD95_1K.py
+!/train.py
+
+# ==========================================
+# Include the entire csv directory
+# Including all nested files and folders
+# ==========================================
+!/csv/
+
+# ==========================================
+# Include .gitignore itself
+# ==========================================
+!/.gitignore
